@@ -3,6 +3,7 @@
 
 FitsFile::FitsFile(void)
 {
+
 }
 
 
