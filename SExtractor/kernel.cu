@@ -9,7 +9,7 @@ cudaError_t addWithCuda(int *c, const int *a, const int *b, size_t size);
 __global__ void addKernel(int *c, const int *a, const int *b)
 {
     int i = threadIdx.x;
-    c[i] = a[i] + b[i];
+    c[i] = a[i] + b[i];  
 }
 
 int main()
